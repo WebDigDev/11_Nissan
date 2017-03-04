@@ -1,0 +1,596 @@
+.container {
+    position: relative;
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+.title {
+    padding: 15px 0 0;
+    width: 37%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+
+    img {
+        max-width: 100%;
+        width: auto;
+        height: auto;
+    }
+}
+
+.logo {
+    position: absolute;
+    width: 10%;
+    top: 0;
+    right: 8%;
+
+    img {
+        max-width: 100%;
+        width: auto;
+        height: auto;
+    }
+}
+
+.content {
+    position: absolute;
+    top: 14%;
+    left: 51%; //   width: 40%;
+    //   margin: -8% 0 0 52%;
+}
+
+.cloud1 {
+    background-image: url("../img/cloud1.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+    width: 416px;
+    height: 200px;
+    text-align: left;
+    padding: 50px 0 0 90px;
+}
+
+.cloud1-text {
+    display: block;
+    color: #000000;
+    font-size: 30px;
+    font-weight: 400;
+
+    b {
+        font-family: 'ComicSansMS-BoldItalic';
+    }
+}
+
+.cloud2 {
+    width: 515px;
+    height: 172px;
+    background-image: url("../img/cloud2.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+    padding: 40px 0 0 140px;
+    margin: -20px 0 0;
+
+    ul {
+        margin: 0;
+        list-style: none;
+        font-size: 20px;
+    }
+}
+
+.contacts-box {
+    text-align: center;
+}
+
+.contacts {
+    display: inline-block;
+    border: 2px solid #c62633;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px 50px;
+    margin: 15px 0 0 60px;
+
+    a {
+        display: block;
+        text-decoration: none;
+        color: #000;
+    }
+}
+
+.contacts__phone {
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.contacts__adres {
+    font-size: 16px;
+    font-weight: 700;
+
+    b {
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+}
+
+.contacts__site {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.footer {
+    position: absolute;
+    width: 60%;
+    left: 7%;
+    bottom: 4%;
+}
+
+.footer__name {
+    img {
+        display: block;
+        max-width: 100%;
+        width: auto;
+        height: auto;
+    }
+}
+
+.form {
+    position: absolute;
+    top: 2.1%;
+    left: 5%;
+    border: 2px solid #c62633;
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 25%;
+    padding: 15px;
+    font-size: 16px;
+
+    input {
+        display: block;
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid #c62633;
+        outline: none;
+        background-color: transparent;
+
+        &:focus {
+            border: none;
+            border-bottom: 1px solid #c62633;
+            outline: none;
+        }
+    }
+}
+
+.form__box-title {
+    text-align: center;
+    margin: 0 0 10px;
+
+    h3 {
+        font-weight: bold;
+    }
+}
+
+.btn__box {
+    margin: 20px 0 0;
+
+
+    input {
+        width: 70%;
+        margin: 0 auto;
+        color: #fff;
+        background-color: #c62633;
+        border: none;
+        padding: 10px 0;
+        line-height: 1;
+        border-radius: 10px;
+          transition: 0.3s;
+        &:hover, &:focus, &:active {
+          background-color: darken(#c62633, 10%);
+        }
+    }
+
+
+}
+@media only screen and (max-width : 1053px) {
+    .cloud1 {
+        width: 316px;
+        height: 200px;
+        padding: 50px 0 0 90px;
+    }
+
+    .cloud1-text {
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .cloud2 {
+        width: 415px;
+        height: 172px;
+        padding: 50px 0 0 140px;
+        margin: -20px 0 0;
+
+        ul {
+            font-size: 15px;
+        }
+    }
+
+    .contacts {
+        padding: 10px 50px;
+        margin: 15px 0 0 60px;
+    }
+
+    .contacts__phone {
+        font-size: 20px;
+    }
+
+    .contacts__adres {
+        font-size: 16px;
+    }
+
+    .contacts__site {
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .form__box-title {
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width : 1024px) {}
+@media only screen and (max-width : 850px) {
+    .cloud1 {
+        width: 256px;
+        height: 200px;
+        padding: 50px 0 0 90px;
+    }
+
+    .cloud1-text {
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .cloud2 {
+        width: 350px;
+        height: 172px;
+        padding: 50px 0 0 100px;
+        margin: -20px 0 0;
+
+        ul {
+            font-size: 15px;
+        }
+    }
+
+    .contacts {
+        padding: 10px 30px;
+        margin: 15px 0 0 60px;
+    }
+
+    .contacts__phone {
+        font-size: 20px;
+    }
+
+    .contacts__adres {
+        font-size: 16px;
+    }
+
+    .contacts__site {
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .form {
+        top: 2.1%;
+        left: 1.6%;
+        width: 30%;
+        padding: 15px;
+        font-size: 16px;
+    }
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .content {
+        position: absolute;
+        top: 17%;
+        left: 51%;
+    }
+
+    .cloud1 {
+        width: 250px;
+        height: 200px;
+        padding: 50px 0 0 90px;
+    }
+
+    .cloud1-text {
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .cloud2 {
+        width: 350px;
+        height: 172px;
+        padding: 50px 0 0 100px;
+        margin: -50px 0 0;
+
+        ul {
+            font-size: 15px;
+        }
+    }
+
+    .contacts {
+        padding: 10px 15px;
+        margin: 15px 0 0 60px;
+    }
+
+    .contacts__phone {
+        font-size: 14px;
+    }
+
+    .contacts__adres {
+        font-size: 16px;
+    }
+
+    .contacts__site {
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .form__box-title {
+        font-size: 11px;
+    }
+}
+@media only screen and (max-width : 715px) {
+    .content {
+        position: absolute;
+        top: 17%;
+        left: 51%;
+    }
+
+    .cloud1 {
+        width: 250px;
+        height: 200px;
+        padding: 50px 0 0 90px;
+    }
+
+    .cloud1-text {
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .cloud2 {
+        width: 250px;
+        height: 172px;
+        padding: 50px 0 0 80px;
+        margin: -50px 0 0;
+
+        ul {
+            font-size: 12px;
+        }
+    }
+
+    .contacts {
+        padding: 10px 15px;
+        margin: 15px 0 0 60px;
+    }
+
+    .contacts__phone {
+        font-size: 12px;
+    }
+
+    .contacts__adres {
+        font-size: 14px;
+    }
+
+    .contacts__site {
+        font-size: 14px;
+        font-weight: 700;
+    }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 510px) {
+    .content {
+        position: absolute;
+        top: 17%;
+        left: 51%;
+        padding: 0 10px 0 0;
+    }
+
+    .cloud1 {
+        width: 150px;
+        height: 200px;
+        padding: 70px 0 0 50px;
+    }
+
+    .cloud1-text {
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .cloud2 {
+        background-image: none;
+        display: inline-block;
+        border-radius: 10px;
+        border: 2px solid #c62633;
+        background-color: #ffffff;
+        width: auto;
+        height: auto;
+        padding: 10px 20px;
+        margin: 0 0 0 50px;
+
+        ul {
+            display: inline-block;
+            font-size: 12px;
+            padding: 0;
+        }
+    }
+
+    .contacts {
+        padding: 5px;
+        margin: 15px 0 0 60px;
+    }
+
+    .contacts__phone {
+        font-size: 10px;
+    }
+
+    .contacts__adres {
+        font-size: 12px;
+    }
+
+    .contacts__site {
+        font-size: 12px;
+        font-weight: 700;
+    }
+}
+@media only screen and (max-width : 480px) {
+    .title {
+        padding: 15px 0 0;
+        width: 50%;
+        margin: 0 auto;
+        position: relative;
+        z-index: 1;
+
+        img {
+            max-width: 100%;
+            width: auto;
+            height: auto;
+        }
+    }
+
+    .logo {
+        position: absolute;
+        width: 15%;
+        top: 0;
+        right: 8%;
+
+        img {
+            max-width: 100%;
+            width: auto;
+            height: auto;
+        }
+    }
+
+    .content {
+        position: absolute;
+        top: 16%;
+        left: 50%;
+        padding: 0 10px 0 0;
+    }
+
+    .cloud1 {
+        width: 150px;
+        height: 200px;
+        padding: 70px 0 0 50px;
+    }
+
+    .cloud1-text {
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .cloud2 {
+        background-image: none;
+        display: inline-block;
+        border-radius: 10px;
+        border: 2px solid #c62633;
+        background-color: #ffffff;
+        height: auto;
+        padding: 10px 5px;
+        margin: -60px 0 0 50px;
+
+        ul {
+            display: inline-block;
+            font-size: 12px;
+            padding: 0;
+        }
+    }
+
+    .contacts {
+        padding: 5px;
+        margin: 15px 0 0 60px;
+    }
+
+    .contacts__phone {
+        font-size: 10px;
+    }
+
+    .contacts__adres {
+        font-size: 12px;
+    }
+
+    .contacts__site {
+        font-size: 12px;
+        font-weight: 700;
+    }
+
+    .form {
+        bottom: 3%;
+        right: 3%;
+        top: auto;
+        left: auto;
+        width: 60%;
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    .form {
+        display: none;
+    }
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 380px) {
+    .content {
+        position: absolute;
+        top: 15%;
+        left: 48%;
+        padding: 0 10px 0 0;
+    }
+
+    .title {
+        padding: 50px 0 0;
+        width: 70%;
+    }
+
+    .cloud2 ul {
+        font-size: 9px;
+    }
+
+    .contacts__phone {
+        font-size: 9px;
+        font-weight: bold;
+    }
+
+    .contacts {
+        width: 120px;
+        margin: 15px 0 0 35px;
+        padding: 5px 0;
+    }
+
+    .contacts__adres {
+        font-size: 10px;
+        font-weight: 300;
+
+        b {
+          font-weight: 300;
+        }
+    }
+
+    .contacts__site {
+        font-size: 10px;
+        font-weight: 300;
+
+    }
+}
+@media only screen and (max-width : 320px) {}
+@media only screen and (max-height : 400px) {
+    .container {
+        height: 150vh;
+    }
+}
+@media only screen and (max-height : 640px) {
+    .content {
+        top: 17%;
+    }
+}

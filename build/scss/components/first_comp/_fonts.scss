@@ -1,0 +1,37 @@
+@import "bourbon";
+
+// @font-face {
+// 	font-family: 'ComicSansMS';
+// 	src:
+// 		url('../fonts/ComicSansMS.woff') format('woff');
+// 	font-weight: normal;
+// 	font-style: normal;
+// }
+//
+// @font-face {
+// 	font-family: 'ComicSansMS-BoldItalic';
+// 	src:
+// 		url('../fonts/ComicSansMS-BoldItalic.woff') format('woff');
+// 	font-weight: bold;
+// 	font-style: italic;
+// }
+
+@font-face {
+	font-family: "ComicSansMS";
+	src: url("../fonts/ComicSansMS.eot");
+	src: url("../fonts/ComicSansMS.eot@#iefix") format("embedded-opentype"),
+			 url("../fonts/ComicSansMS.woff") format("woff"),
+			 url("../fonts/ComicSansMS.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "ComicSansMS-BoldItalic";
+	src: url("../fonts/ComicSansMS-BoldItalic.eot");
+	src: url("../fonts/ComicSansMS-BoldItalic.eot@#iefix") format("embedded-opentype"),
+			 url("../fonts/ComicSansMS-BoldItalic.woff") format("woff"),
+			 url("../fonts/ComicSansMS-BoldItalic.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
