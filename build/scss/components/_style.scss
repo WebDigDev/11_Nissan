@@ -1,10 +1,5 @@
 .container {
-    position: relative;
-    background-image: url("../img/bg.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    height: 100vh;
+
 }
 
 .title {
@@ -108,17 +103,14 @@
 
 .contacts__adres {
     font-size: 16px;
-    font-weight: 700;
 
     b {
         text-transform: uppercase;
-        font-weight: 700;
     }
 }
 
 .contacts__site {
     font-size: 16px;
-    font-weight: 700;
 }
 
 .footer {
@@ -232,7 +224,6 @@
 
     .contacts__site {
         font-size: 16px;
-        font-weight: 700;
     }
 
     .form__box-title {
@@ -278,7 +269,6 @@
 
     .contacts__site {
         font-size: 16px;
-        font-weight: 700;
     }
 
     .form {
@@ -583,14 +573,103 @@
 
     }
 }
-@media only screen and (max-width : 320px) {}
-@media only screen and (max-height : 400px) {
-    .container {
-        height: 150vh;
+@media only screen and (max-width : 320px) {
+
+}
+@media only screen and (max-height : 440px) {
+    body {
+        min-height: 150vh;
     }
 }
+
 @media only screen and (max-height : 640px) {
     .content {
         top: 17%;
     }
 }
+
+
+@media all and (orientation: landscape) and (max-height: 580px) {
+
+  body {
+      min-height: 150vh;
+  }
+}
+
+
+@media all and (orientation: landscape) and (max-height: 400px) {
+
+  body {
+      min-height: 100vh;
+      background-size: cover;
+  }
+
+
+      .form {
+          display: none;
+      }
+
+      .content {
+          position: absolute;
+          top:0;
+          left: 50%;
+          padding: 0 10px 0 0;
+      }
+
+      .cloud1 {
+          width: 150px;
+          height: 200px;
+          padding: 70px 0 0 50px;
+      }
+
+      .cloud1-text {
+          font-size: 12px;
+          font-weight: 400;
+      }
+
+      .cloud2 {
+          background-image: none;
+          display: inline-block;
+          width: auto;
+          border-radius: 10px;
+          border: 2px solid #c62633;
+          background-color: #ffffff;
+          height: auto;
+          padding: 10px 5px;
+          margin: -60px 0 0 40px;
+
+          ul {
+              display: inline-block;
+              font-size: 12px;
+              padding: 0;
+          }
+      }
+
+      .contacts {
+          padding: 5px;
+          margin: 10px 0 0 60px;
+      }
+
+      .contacts__phone {
+          font-size: 10px;
+      }
+
+      .contacts__adres {
+          font-size: 12px;
+      }
+
+      .contacts__site {
+          font-size: 12px;
+      }
+
+    .footer {
+    position: absolute;
+    width: 40%;
+    left: 1%;
+    bottom: 7%;
+}
+
+
+
+
+ }
